@@ -1,0 +1,40 @@
+# to check python version
+py --version 
+
+# to check pip version
+py -m pip --version
+
+# install a virtual environment
+
+py -m pip install virtualenvwrapper-win
+
+or
+
+py -m pip install --user virtualenv
+
+# make a directory
+mkdir nivedjango
+cd nivedjango
+
+# create venv and activate 
+py -m venv test
+test\Scripts\activate
+
+# upgrade pip
+python -m pip install --upgrade pip
+
+# install django inside venv
+(test)C:\users\HARISH\nivedjango>pip install django
+
+# django version check
+django-admin --version
+
+#make a directory and create project
+(test)C:\users\HARISH\nivedjango> mkdir djangoprojects
+(test)C:\users\HARISH\nivedjango>cd djangoprojects
+(test)C:\users\HARISH\nivedjango\djangoprojects>djano-admin startproject telusko_practice
+
+#list the files in the directory 
+cd telusko_practice
+ls not working so use dir instead
+
