@@ -1,3 +1,14 @@
+#VSCODE setup
+problem faced:tried to run virtual environment script but scripts didnot run
+
+solution:
+ctrl+shift+P type opensetings(json)
+add
+"terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"]
+
+
+
+
 # to check python version
 py --version 
 
